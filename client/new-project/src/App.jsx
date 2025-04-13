@@ -8,7 +8,7 @@ import Checkout from "./Pages/Check";
 import Registration from "./Pages/Registration";
 import ShowGameProduct from "./Admin/ShowGameProduct";
 import { ToastContainer } from "react-toastify";
-import CustomerOrder from "./Admin/CustomerORder";
+import CustomerOrd from "./Admin/CustomerORder";
 import ManageGameProduct from "./Admin/ManageProduct";
 import FavCart from "./Pages/FavData";
 const App = () => {
@@ -31,7 +31,7 @@ const App = () => {
           <Route path="admindashboard" element={<AdminDashBoard />}>
             <Route path="addgameproduct" element={<AddGameProduct />} />
             <Route path="showgameproduct" element={<ShowGameProduct />} />
-            <Route path="getcustomerorder" element={<CustomerOrder />} />
+            <Route path="getcustomerorder" element={<CustomerOrd />} />
             <Route path="manageproduct" element={<ManageGameProduct />} />
           </Route>
         </Routes>

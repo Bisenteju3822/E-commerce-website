@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import Base_URL from "../config/BaseUrl";
 
-const CustomerOrder = () => {
+const CustomerOrd = () => {
   const [mydata, setMydata] = useState([]);
 
   const loadData = async () => {
@@ -55,4 +55,4 @@ const CustomerOrder = () => {
   );
 };
 
-export default CustomerOrder;
+export default CustomerOrd;
