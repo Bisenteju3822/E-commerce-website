@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 import { cartEmpty } from "../CartSlice";
 import { ToastContainer, toast } from "react-toastify";
 
-const CheckOut = () => {
+const Checkout = () => {
   const { logedIn } = useContext(MyContext);
   const [cusData, setCusData] = useState({});
   const navigate = useNavigate();
@@ -231,4 +231,4 @@ const CheckOut = () => {
   );
 };
 
-export default CheckOut;
+export default Checkout;

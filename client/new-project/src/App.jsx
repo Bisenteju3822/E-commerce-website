@@ -4,13 +4,12 @@ import Home from "./Pages/Home";
 import AdminDashBoard from "./Admin/AdminDashboard";
 import AddGameProduct from "./Admin/AddGameProduct";
 import GamingCart from "./Pages/CartData";
-import CheckOut from "./Pages/Checkout";
+import Checkout from "./Pages/Check";
 import Registration from "./Pages/Registration";
 import ShowGameProduct from "./Admin/ShowGameProduct";
 import { ToastContainer } from "react-toastify";
 import CustomerOrder from "./Admin/CustomerORder";
 import ManageGameProduct from "./Admin/ManageProduct";
-import AddFavoruite from "./Pages/AddFavorute";
 import FavCart from "./Pages/FavData";
 const App = () => {
   return (
@@ -23,7 +22,7 @@ const App = () => {
             <Route index element={<Home />} />
             <Route path="home" element={<Home />} />
             <Route path="cartdata" element={<GamingCart />} />
-            <Route path="checkout" element={<CheckOut />} />
+            <Route path="checkout" element={<Checkout />} />
             <Route path="registration" element={<Registration />} />
             <Route path="favdata" element={<FavCart />} />
           </Route>
