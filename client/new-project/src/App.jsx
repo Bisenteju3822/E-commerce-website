@@ -5,7 +5,7 @@ import AdminDashBoard from "./Admin/AdminDashboard";
 import AddGameProduct from "./Admin/AddGameProduct";
 import GamingCart from "./Pages/CartData";
 import Checkout from "./Pages/Check";
-import Registration from "./Pages/Registration";
+import Registration from "./Pages/Reg";
 import ShowGameProduct from "./Admin/ShowGameProduct";
 import { ToastContainer } from "react-toastify";
 import CustomerOrd from "./Admin/CustOrd";
