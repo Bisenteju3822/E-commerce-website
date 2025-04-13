@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
-import Home from "./Pages/Home";
+import Hom from "./Pages/Home";
 import AdminDashBoard from "./Admin/AdminDashboard";
 import AddGameProduct from "./Admin/AddGameProduct";
 import GamingCart from "./Pages/CartData";
@@ -20,7 +20,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="home" element={<Home />} />
+            <Route path="home" element={<Hom />} />
             <Route path="cartdata" element={<GamingCart />} />
             <Route path="checkout" element={<Checkout />} />
             <Route path="registration" element={<Registration />} />

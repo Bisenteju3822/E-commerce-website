@@ -9,7 +9,7 @@ import { MyContext } from "../LoginContext";
 import { toast } from "react-toastify";
 import { FaHeart } from "react-icons/fa";
 
-const Home = () => {
+const Hom = () => {
   const [mydata, setMydata] = useState([]);
   const dispatch = useDispatch();
   const { logedIn, setLoggedIn, setUname, setUemail } = useContext(MyContext);
@@ -182,4 +182,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Hom;
