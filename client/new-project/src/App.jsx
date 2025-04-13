@@ -8,8 +8,8 @@ import Checkout from "./Pages/Check";
 import Registration from "./Pages/Registration";
 import ShowGameProduct from "./Admin/ShowGameProduct";
 import { ToastContainer } from "react-toastify";
-import CustomerOrd from "./Admin/CustomerORder";
-import ManageGameProduct from "./Admin/ManageProduct";
+import CustomerOrd from "./Admin/CustOrd";
+import ManageGameProduct from "./Admin/Manage";
 import FavCart from "./Pages/FavData";
 const App = () => {
   return (
