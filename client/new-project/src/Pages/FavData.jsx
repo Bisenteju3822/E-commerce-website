@@ -1,7 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import Base_URL from "../config/BaseUrl";
 import { FaPlusSquare, FaMinusSquare } from "react-icons/fa";
-import { qntyIncrease, qntyDecrease, productRemove } from "../CartSlice";
 import { ntyIncrease, ntyDecrease, roductRemove } from "../FavSlice";
 import { MdDelete } from "react-icons/md";
 import { HiDocumentCurrencyRupee } from "react-icons/hi2";
